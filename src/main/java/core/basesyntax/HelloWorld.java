@@ -15,6 +15,7 @@ public class HelloWorld {
         Cat cat = new Cat();
     }
 
+    
     private String getFromOneToTen() {
         String result = "";
         for (int i = 0; i < 10; i++) {
@@ -25,6 +26,7 @@ public class HelloWorld {
         return result;
     }
 
+
     private void sayHello(String hello) {
         System.out.println(
                 "Hello, Mate! I am happy to see you! This class looks weird! "
@@ -33,6 +35,7 @@ public class HelloWorld {
         );
         System.out.println(hello);
     }
+
 
     private void initializeVariables() {
         name = "Hello mates!";
